@@ -6,16 +6,6 @@ A GBM (Generic Buffer Manager) backend implementation for Qualcomm MSM (Mobile S
 
 `gbm-msm-backend` provides hardware-accelerated buffer allocation and management for Qualcomm Adreno GPUs on MSM platforms. It implements the GBM backend ABI to integrate seamlessly with Mesa's GBM loader, enabling efficient graphics buffer operations for display and rendering pipelines.
 
-### Key Features
-
-- **MSM DRM Integration**: Direct integration with Qualcomm's MSM DRM kernel driver for buffer allocation
-- **Multi-plane Buffer Support**: Handles complex buffer layouts including multi-planar formats
-- **Format Modifier Support**: Full support for DRM format modifiers for optimal buffer layouts
-- **Buffer Import/Export**: PRIME buffer sharing via file descriptors for inter-process communication
-- **Memory Mapping**: CPU-side buffer access with proper cache coherency management
-- **Surface Management**: Double/triple buffering support for rendering surfaces
-- **XML-based Configuration**: Flexible buffer layout configuration via XML schemas
-
 ## Architecture
 
 The backend consists of several key components:
@@ -57,30 +47,8 @@ The backend is automatically loaded by Mesa's GBM loader when available. Applica
 
 ## Supported Formats
 
-The backend supports a wide range of pixel formats including:
+The backend supports a wide range of pixel formats. Format-specific alignment and layout requirements are defined in `default_fmt_alignment.xml`.
 
-- RGB/RGBA formats (8888, 565, etc.)
-- YUV formats (NV12, NV21, YV12, etc.)
-- HDR formats (P010, RGBA1010102, etc.)
-- Floating-point formats (RGBA16161616F, RGBA32323232F)
-
-Format-specific alignment and layout requirements are defined in `default_fmt_alignment.xml`.
-
-## Buffer Modifiers
-
-The backend supports Qualcomm-specific DRM format modifiers for optimized buffer layouts:
-
-- Compressed formats
-- Tiled layouts
-- Custom alignment requirements
-
-## Platform Requirements
-
-This backend requires:
-
-- Qualcomm MSM platform with Adreno GPU
-- MSM DRM kernel driver (`/dev/dri/card*`)
-- KGSL device node (`/sys/class/kgsl/kgsl-3d0/`)
 
 ## Contributing
 
@@ -111,10 +79,6 @@ This project is licensed under the GNU General Public License v2.0. See the [LIC
 
 Some components may be licensed under BSD-3-Clause-Clear. See individual file headers for specific licensing information.
 
-## Acknowledgments
-
-- Mesa GBM project for the backend ABI specification
-- Qualcomm Innovation Center for MSM platform support
 
 ## Related Projects
 
