@@ -36,8 +36,6 @@ In general, contributors should develop on branches based off of `main` and pull
     git commit -s -m "Really useful commit message"
     ```
 
-    By submitting a pull request, you agree that your contributions will be licensed under the same license that covers this project (see LICENSE file).
-
 1. After committing your changes on the topic branch, sync it with the upstream branch:
 
     ```bash
