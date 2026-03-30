@@ -30,11 +30,13 @@ In general, contributors should develop on branches based off of `main` and pull
     ```
 
 1. Make your changes, add tests, and make sure the tests still pass.
-1. Commit your changes using the [DCO](https://developercertificate.org/). You can attest to the DCO by commiting with the **-s** or **--signoff** options or manually adding the "Signed-off-by":
+1. Commit your changes with a clear and descriptive commit message. You must add a sign-off to your commits using the **-s** or **--signoff** options:
 
     ```bash
-    git commit -s -m "Really useful commit message"`
+    git commit -s -m "Really useful commit message"
     ```
+
+    By submitting a pull request, you agree that your contributions will be licensed under the same GPL-2.0 license that covers this project.
 
 1. After committing your changes on the topic branch, sync it with the upstream branch:
 
