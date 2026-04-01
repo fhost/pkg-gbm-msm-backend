@@ -20,6 +20,7 @@ on:
       - reopened
     paths-ignore:
       - '.github/**'
+      - '.licenseignore'
 
 permissions:
  contents: read
