@@ -155,6 +155,7 @@
           ],
           "skip-paths-matching": {
             "patterns": [
+              ".github\/workflows\/",
               "babel.config.js",
               "build\/",
               "external\/",
@@ -197,6 +198,7 @@
           ],
           "skip-paths-matching": {
             "patterns": [
+              ".github\/workflows\/",
               "babel.config.js",
               "build\/",
               "external\/",
