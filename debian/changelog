@@ -1,8 +1,10 @@
-libgbm-msm (1.2.5-6) UNRELEASED; urgency=medium
+libgbm-msm (1.2.5-6) resolute; urgency=medium
 
-  * Initial commit
+  * Convert GBM backend build to unversioned shared module
+  * Update installation rules to only deploy unversioned msm_gbm.so
+  * Add source option to ignore .github directory
 
- -- ABHIJITH DESAI <quic_abdesai@quicinc.com>  Thu, 21 May 2026 12:30:40 +0000
+ -- Abhijith Desai <abdesai@qti.qualcomm.com>  Wed, 03 Jun 2026 15:42:41 +0530
 
 libgbm-msm (1.2.5-5) unstable; urgency=medium
 
