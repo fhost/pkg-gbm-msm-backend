@@ -1,3 +1,9 @@
+libgbm-msm (1.2.6-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Wed, 03 Jun 2026 11:15:58 +0000
+
 libgbm-msm (1.2.5-6) resolute; urgency=medium
 
   * Convert GBM backend build to unversioned shared module
