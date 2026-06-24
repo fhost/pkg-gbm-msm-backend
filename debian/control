@@ -2,8 +2,6 @@ Source: libgbm-msm
 Section: libs
 Maintainer: Maintainers.pkg-gbm-msm-backend <Maintainers.pkg-gbm-msm-backend@qualcomm.com>
 Uploaders:
- Abhijith Desai <quic_abdesai@quicinc.com>,
- Devanshi Bansal <quic_devanshi@quicinc.com>,
  Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
