@@ -1,6 +1,5 @@
 Source: libgbm-msm
 Section: libs
-Priority: optional
 Maintainer: ABHIJITH DESAI <quic_abdesai@quicinc.com>
 Uploaders:
  DEVANSHI BANSAL <quic_devanshi@quicinc.com>,
