@@ -1,7 +1,8 @@
 Source: libgbm-msm
 Section: libs
-Maintainer: ABHIJITH DESAI <quic_abdesai@quicinc.com>
+Maintainer: Maintainers.pkg-gbm-msm-backend <Maintainers.pkg-gbm-msm-backend@qualcomm.com>
 Uploaders:
+ ABHIJITH DESAI <quic_abdesai@quicinc.com>,
  DEVANSHI BANSAL <quic_devanshi@quicinc.com>,
  Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
