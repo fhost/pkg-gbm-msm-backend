@@ -16,7 +16,6 @@ Vcs-Browser: https://github.com/qualcomm-linux/pkg-gbm-msm-backend
 Vcs-Git: https://github.com/qualcomm-linux/pkg-gbm-msm-backend.git
 
 Package: libgbm-msm
-Section: libs
 Architecture: arm64
 Depends:
  ${misc:Depends},
