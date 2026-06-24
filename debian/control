@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: ABHIJITH DESAI <quic_abdesai@quicinc.com>
 Uploaders:
  DEVANSHI BANSAL <quic_devanshi@quicinc.com>,
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
  libdrm-dev (>= 2.4.104),
