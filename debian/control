@@ -1,4 +1,4 @@
-Source: libgbm-msm
+Source: msm-gbm-backend
 Section: libs
 Maintainer: Maintainers.pkg-gbm-msm-backend <Maintainers.pkg-gbm-msm-backend@qualcomm.com>
 Uploaders:
