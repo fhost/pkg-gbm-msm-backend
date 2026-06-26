@@ -22,7 +22,7 @@ Depends:
  ${shlibs:Depends},
 Pre-Depends:
  ${misc:Pre-Depends},
-Description: generic buffer management API (runtime library)
+Description: MSM backend for libgbm (runtime library)
  This package provides the MSM backend library which enables GBM buffer
  management support when using Qualcomm graphics driver.
  .
@@ -33,7 +33,7 @@ Section: libdevel
 Architecture: arm64
 Depends:
  ${misc:Depends},
-Description: generic buffer management API (development files)
+Description: MSM backend for libgbm (development files)
  This package provides the MSM backend library which enables GBM buffer
  management support when using Qualcomm graphics driver.
  .
