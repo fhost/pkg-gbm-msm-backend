@@ -1,4 +1,4 @@
-gbm-msm-backend (1.2.5-0qli1~bpo13+1~) trixie; urgency=medium
+gbm-msm-backend (1.2.5-0qli1~bpo13+1~) UNRELEASED; urgency=medium
 
   * Rebuild for trixie.
 
