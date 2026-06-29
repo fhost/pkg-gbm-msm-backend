@@ -1,3 +1,9 @@
+gbm-msm-backend (1.2.5-0qli1~bpo13+1~) trixie; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Mon, 29 Jun 2026 16:00:46 +0200
+
 gbm-msm-backend (1.2.5-0qli1) forky; urgency=medium
 
   [ Agathe Porte ]
