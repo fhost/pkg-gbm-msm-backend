@@ -1,5 +1,6 @@
-gbm-msm-backend (1.2.5-0qli1~) UNRELEASED; urgency=medium
+gbm-msm-backend (1.2.5-0qli1) forky; urgency=medium
 
+  [ Agathe Porte ]
   * Initial release
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 24 Jun 2026 11:27:37 +0200
+ -- root <root@002d59ad949b>  Mon, 29 Jun 2026 13:52:35 +0000
