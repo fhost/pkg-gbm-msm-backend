@@ -2,18 +2,18 @@ gbm-msm-backend (1.2.5-0qli1~bpo14+1~) UNRELEASED; urgency=medium
 
   * Unreleased changes
 
- -- root <root@e825aad0a2d4>  Mon, 29 Jun 2026 14:17:51 +0000
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Mon, 29 Jun 2026 14:17:51 +0000
 
 gbm-msm-backend (1.2.5-0qli1~bpo13+1) trixie; urgency=medium
 
   [ Agathe Porte ]
   * Rebuild for trixie.
 
- -- root <root@3247a7581f39>  Mon, 29 Jun 2026 14:15:16 +0000
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Mon, 29 Jun 2026 14:15:16 +0000
 
 gbm-msm-backend (1.2.5-0qli1) forky; urgency=medium
 
   [ Agathe Porte ]
   * Initial release
 
- -- root <root@002d59ad949b>  Mon, 29 Jun 2026 13:52:35 +0000
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Mon, 29 Jun 2026 13:52:35 +0000
