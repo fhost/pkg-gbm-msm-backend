@@ -1,8 +1,9 @@
-gbm-msm-backend (1.2.5-0qli1~bpo14+1~) UNRELEASED; urgency=medium
+gbm-msm-backend (1.2.5-0qli2) forky; urgency=medium
 
-  * Unreleased changes
+  [ Agathe Porte ]
+  * drop unused libgbm-msm-dev
 
- -- Debusine Action GitHub Bot <noreply@bot.invalid>  Mon, 29 Jun 2026 14:17:51 +0000
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Tue, 28 Jul 2026 12:40:03 +0000
 
 gbm-msm-backend (1.2.5-0qli1~bpo13+1) trixie; urgency=medium
 
