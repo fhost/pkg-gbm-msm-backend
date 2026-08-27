@@ -1,4 +1,4 @@
-Source:  libgbm-msm
+Source: gbm-msm-backend
 Section: libs
 Priority: optional
 Maintainer: ABHIJITH DESAI <quic_abdesai@quicinc.com>
